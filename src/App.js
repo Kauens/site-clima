@@ -3,7 +3,7 @@ import "./App.css";
 
 function App() {
   const [cidade, setCidade] = useState("");
-  const [dados, setDados] = useStates(null);
+  const [dados, setDados] = useState(null);
 
   const apiKey = "7533d32c7006f2a9988d7669126dd0ef";
 
